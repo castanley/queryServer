@@ -7,7 +7,7 @@ dnsserver=your.dns.server
 dnsloc=/your/zone/location/
 
 if [[ $1 = '' ]]; then
- echo "usage: queryServ.sh [ip | host | dns | -r (refused) | -t (timed out) | -d (denied)]"
+ echo "usage: queryServ.sh [hip | hhost | dns | -r (refused) | -t (timed out) | -d (denied)]"
 fi
 
 #AIX HMC Command
